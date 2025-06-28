@@ -1,4 +1,4 @@
-# Wicked Waifus
+# 鸣潮
 
 ![截图](screenshot.png)
 
