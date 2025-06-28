@@ -1,0 +1,144 @@
+{
+  "default": {
+    "CdnUrl": [
+      {
+        "url": "https://cdn-huoshan-cn-mc.aki-game.com/prod/client/",
+        "weight": "150"
+      },
+      {
+        "url": "https://cdn-qcloud-cn-mc.aki-game.com/prod/client/",
+        "weight": "0"
+      },
+      {
+        "url": "https://cdn-aliyun-cn-mc.aki-game.com/prod/client/",
+        "weight": "396"
+      }
+    ],
+    "SecondaryUrl": [],
+    "PriceRatio": 1,
+    "SpeedRatio": 1,
+    "GachaUrl": {
+      "GachaRecord": "http://127.0.0.1:10001",
+      "GachaPoolDetail": "http://127.0.0.1:10001"
+    },
+    "LogReport": {
+      "name": "pioneer-upload-log-1319073642",
+      "region": "dev-reversedrooms"
+    },
+    "PackageUpdateDescUrl": {
+      "MainUrl": "http://127.0.0.1:10001/force_update/UpdateDesc.html",
+      "SubUrl": "http://127.0.0.1:10001/force_update/UpdateDesc.html"
+    },
+    "PackageUpdateUrl": {
+      "MainUrl": "http://127.0.0.1:10001/force_update/UpdateJs.html",
+      "SubUrl": "http://127.0.0.1:10001/force_update/UpdateJs.html"
+    },
+    "TDCfg": {
+      "AppID": "3e2e647670b7498fa645eb9574f78c2c",
+      "URL": "http://127.0.0.1:10001"
+    },
+    "GmOpen": false,
+    "RptOpen": false,
+    "IosAuditFirstDownloadTip": false,
+    "SDKEnvironment": {
+      "PS5": "Product"
+    },
+    "NoticeUrl": "http://127.0.0.1:10001",
+    "MixUri": "Xv2EHdJz8IOSvTqViagHTrUY7NnGGRh8",
+    "ResUri": "Xv2EHdJz8IOSvTqViagHTrUY7NnGGRh8",
+    "GrayBox": {
+      "Items": [
+        {
+          "Name": "TestBox1",
+          "Divisor": 100,
+          "Left": 0,
+          "Right": 10
+        },
+        {
+          "Name": "TestBox2",
+          "Divisor": 100,
+          "Left": 10,
+          "Right": 30
+        },
+        {
+          "Name": "TestBox3",
+          "Divisor": 100,
+          "Left": 30,
+          "Right": 60
+        },
+        {
+          "Name": "TestBox4",
+          "Divisor": 100,
+          "Left": 40,
+          "Right": 80
+        },
+        {
+          "Name": "TestBox5",
+          "Divisor": 100,
+          "Left": 50,
+          "Right": 100
+        },
+        {
+          "Name": "TestBox6",
+          "Divisor": 100,
+          "Left": 0,
+          "Right": 60
+        },
+        {
+          "Name": "TestBox7",
+          "Divisor": 100,
+          "Left": 0,
+          "Right": 70
+        },
+        {
+          "Name": "TestBox8",
+          "Divisor": 100,
+          "Left": 0,
+          "Right": 80
+        },
+        {
+          "Name": "TestBox9",
+          "Divisor": 100,
+          "Left": 0,
+          "Right": 90
+        },
+        {
+          "Name": "TestBox10",
+          "Divisor": 100,
+          "Left": 0,
+          "Right": 100
+        },
+        {
+          "Name": "GrayBoxLauncherNotice",
+          "Divisor": 10000,
+          "Left": 0,
+          "Right": 1000
+        },
+        {
+          "Name": "SeparateVideo",
+          "Divisor": 10000,
+          "Left": 0,
+          "Right": 5000
+        }
+      ]
+    },
+    "LoginServers": [
+      {
+        "id": "f9e0fc655c1931bc03ad976e9fc14473",
+        "ip": "http://127.0.0.1:5500",
+        "name": "Zani PS"
+      }
+    ],
+    "UdpPort": [
+      7777
+    ],
+    "PrivateServers": {
+      "enable": false,
+      "serverUrl": ""
+    }
+  },
+  "p1": {
+    "IosAuditFirstDownloadTip": false
+  },
+  "ModifyTime": 1743681653
+}

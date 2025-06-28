@@ -1,0 +1,63 @@
+{
+    "default": {
+        "CdnUrl": [
+            {
+                "url": "https://cdn-huoshan-cn-mc.aki-game.com/prod/client/",
+                "weight": "396"
+            },
+            {
+                "url": "https://cdn-qcloud-cn-mc.aki-game.com/prod/client/",
+                "weight": "0"
+            },
+            {
+                "url": "https://cdn-aliyun-cn-mc.aki-game.com/prod/client/",
+                "weight": "1232"
+            }
+        ],
+        "SecondaryUrl": [],
+        "PriceRatio": 1,
+        "SpeedRatio": 1,
+        "GachaUrl": {
+            "GachaRecord": "http://127.0.0.1:10001",
+            "GachaPoolDetail": "http://127.0.0.1:10001"
+        },
+        "LogReport": {
+            "name": "pioneer-upload-log-1319073642",
+            "region": "dev-reversedrooms"
+        },
+        "PackageUpdateDescUrl": {
+            "MainUrl": "http://127.0.0.1:10001/force_update/UpdateDesc.html",
+            "SubUrl": "http://127.0.0.1:10001/force_update/UpdateDesc.html"
+        },
+        "PackageUpdateUrl": {
+            "MainUrl": "http://127.0.0.1:10001/force_update/UpdateJs.html",
+            "SubUrl": "http://127.0.0.1:10001/force_update/UpdateJs.html"
+        },
+        "TDCfg": {
+            "AppID": "0d45e80772374d95a961daf5316265e3",
+            "URL": "http://127.0.0.1:10001/TDCfg"
+        },
+        "GmOpen": false,
+        "RptOpen": false,
+        "IosAuditFirstDownloadTip": false,
+        "NoticeUrl": "http://127.0.0.1:10001",
+        "MixUri": "3SJkVXTH22d6sNDHMLq9gmxjJOITwnTr",
+        "ResUri": "3SJkVXTH22d6sNDHMLq9gmxjJOITwnTr",
+        "LoginServers": [
+            {
+                "id": "f9e0fc655c1931bc03ad976e9fc14473",
+                "ip": "http://127.0.0.1:5500",
+                "name": "Cantarella"
+            }
+        ],
+        "UdpPort": [7777],
+        "PrivateServers": {
+            "enable": false,
+            "serverUrl": ""
+        }
+    },
+    "p1": {
+        "IosAuditFirstDownloadTip": false
+    },
+    "ModifyTime": 1740131658
+}

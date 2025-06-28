@@ -1,0 +1,66 @@
+{
+  "default": {
+    "CdnUrl": [
+      {
+        "url": "https://cdn-huoshan-cn-mc.aki-game.com/prod/client/",
+        "weight": "0"
+      },
+      {
+        "url": "https://cdn-qcloud-cn-mc.aki-game.com/prod/client/",
+        "weight": "0"
+      },
+      {
+        "url": "https://cdn-aliyun-cn-mc.aki-game.com/prod/client/",
+        "weight": "0"
+      }
+    ],
+    "SecondaryUrl": [],
+    "PriceRatio": 1,
+    "SpeedRatio": 1,
+    "GachaUrl": {
+      "GachaRecord": "http://127.0.0.1:10001",
+      "GachaPoolDetail": "http://127.0.0.1:10001"
+    },
+    "LogReport": {
+      "name": "pioneer-upload-log-1319073642",
+      "region": "dev-reversedrooms"
+    },
+    "PackageUpdateDescUrl": {
+      "MainUrl": "http://127.0.0.1:10001/force_update/UpdateDesc.html",
+      "SubUrl": "http://127.0.0.1:10001/force_update/UpdateDesc.html"
+    },
+    "PackageUpdateUrl": {
+      "MainUrl": "http://127.0.0.1:10001/force_update/UpdateJs.html",
+      "SubUrl": "http://127.0.0.1:10001/force_update/UpdateJs.html"
+    },
+    "TDCfg": {
+      "AppID": "3e2e647670b7498fa645eb9574f78c2c",
+      "URL": "http://127.0.0.1:10001/TDCfg"
+    },
+    "GmOpen": false,
+    "RptOpen": false,
+    "IosAuditFirstDownloadTip": false,
+    "SDKEnvironment": {
+      "PS5": "Product"
+    },
+    "NoticeUrl": "https://aki-gm-resources-back-beta.aki-game2.com",
+    "MixUri": "RlFsZFnwapAUu4Lyh1dRmaKU5LWUhh3d",
+    "ResUri": "RlFsZFnwapAUu4Lyh1dRmaKU5LWUhh3d",
+    "LoginServers": [
+      {
+        "id": "f9e0fc655c1931bc03ad976e9fc14473",
+        "ip": "http://127.0.0.1:5500",
+        "name": "LupaPS"
+      }
+    ],
+    "UdpPort": [7777],
+    "PrivateServers": {
+      "enable": false,
+      "serverUrl": ""
+    }
+  },
+  "p1": {
+    "IosAuditFirstDownloadTip": false
+  },
+  "ModifyTime": 1747212887
+}

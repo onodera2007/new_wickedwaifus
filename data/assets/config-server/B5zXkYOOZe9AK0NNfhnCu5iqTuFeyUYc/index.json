@@ -1,0 +1,64 @@
+{
+  "default": {
+    "CdnUrl": [
+      {
+        "url": "https://cdn-aws-hw-mc.aki-game.net/prod/client/",
+        "weight": "829"
+      },
+      {
+        "url": "https://cdn-qcloud-hw-mc.aki-game.net/prod/client/",
+        "weight": "0"
+      },
+      {
+        "url": "https://cdn-akamai-hw-mc.aki-game.net/prod/client/",
+        "weight": "262"
+      },
+      {
+        "url": "https://cdn-huoshan-hw-mc.aki-game.net/prod/client/",
+        "weight": "829"
+      }
+    ],
+    "SecondaryUrl": [],
+    "PriceRatio": 1,
+    "SpeedRatio": 1,
+    "GachaUrl": {
+      "GachaRecord": "http://127.0.0.1:10001/gacha/record",
+      "GachaPoolDetail": "http://127.0.0.1:10001/gacha/detail"
+    },
+    "LogReport": {
+      "name": "pioneer-upload-log-1319073642",
+      "region": "dev-reversedrooms"
+    },
+    "PackageUpdateDescUrl": {
+      "MainUrl": "http://127.0.0.1:10010/force_update/UpdateDesc.html",
+      "SubUrl": "http://127.0.0.1:10010/force_update/UpdateDesc.html"
+    },
+    "PackageUpdateUrl": {
+      "MainUrl": "http://127.0.0.1:10010/force_update/UpdateJs.html",
+      "SubUrl": "http://127.0.0.1:10010/force_update/UpdateJs.html"
+    },
+    "TDCfg": {
+      "AppID": "7be70c9c181f4fa8bc013e9b89d2b63b",
+      "URL": "http://127.0.0.1:10001/TDCfg"
+    },
+    "GmOpen": false,
+    "IosAuditFirstDownloadTip": false,
+    "NoticeUrl": "http://127.0.0.1:10001/notice",
+    "MixUri": "B5zXkYOOZe9AK0NNfhnCu5iqTuFeyUYc",
+    "ResUri": "B5zXkYOOZe9AK0NNfhnCu5iqTuFeyUYc",
+    "LoginServers": [
+      {
+        "id": "76402e5b20be2c39f095a152090afddc",
+        "ip": "http://127.0.0.1:5500",
+        "name": "Camellya"
+      }
+    ],
+    "PrivateServers": {
+      "enable": false,
+      "serverUrl": ""
+    }
+  },
+  "p1": {
+    "IosAuditFirstDownloadTip": false
+  }
+}
