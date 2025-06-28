@@ -1,0 +1,5 @@
+start cmd /k "cargo run --bin wicked-waifus-config-server"
+start cmd /k "cargo run --bin wicked-waifus-hotpatch-server"
+start cmd /k "cargo run --bin wicked-waifus-login-server"
+start cmd /k "cargo run --bin wicked-waifus-gateway-server"
+start cmd /k "cargo run --bin wicked-waifus-game-server"
